@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Prueba.Calentamiento", "Prueba.Calentamiento\Prueba.Calentamiento.vbproj", "{810BD0A8-59FB-4D78-B56A-EF688A26C43D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.Calculadora", "Topicos.Calculadora\Topicos.Calculadora.csproj", "{29694EFC-BE7E-4D40-BCAA-8DB839C42DE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{810BD0A8-59FB-4D78-B56A-EF688A26C43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{810BD0A8-59FB-4D78-B56A-EF688A26C43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{810BD0A8-59FB-4D78-B56A-EF688A26C43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29694EFC-BE7E-4D40-BCAA-8DB839C42DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29694EFC-BE7E-4D40-BCAA-8DB839C42DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29694EFC-BE7E-4D40-BCAA-8DB839C42DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29694EFC-BE7E-4D40-BCAA-8DB839C42DE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
