@@ -979,7 +979,7 @@ var Microsoft;
                                 output[field] = "null";
                             }
                             else {
-                                var num = parseFloat(value);
+                                var num = parsedouble(value);
                                 if (isNaN(num)) {
                                     output[field] = "NaN";
                                 }

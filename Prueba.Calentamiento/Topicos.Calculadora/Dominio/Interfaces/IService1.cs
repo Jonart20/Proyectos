@@ -10,8 +10,21 @@ namespace Topicos.Calculadora
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "IService1" en el código y en el archivo de configuración a la vez.
     [ServiceContract]
-    public interface IService1
+
+   
+    public interface ICalculadoraVector
     {
+        [OperationContract]
+        double Sumar(IEnumerable<double> laLista);
+
+        [OperationContract]
+        double Restar(IEnumerable<double> laLista);
+
+        [OperationContract]
+        double Multiplicar(IEnumerable<double> laLista);
+
+        [OperationContract]
+        double Dividir(IEnumerable<double> laLista);
 
         [OperationContract]
         string GetData(int value);
