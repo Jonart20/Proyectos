@@ -17,7 +17,7 @@ namespace Topicos.Calculadora.Tests
             var laAccion = new Dominio.Acciones.Sumar();
             var elResultadoObtenido = laAccion.RealizarOperacion(miLista);
 
-            Assert.AreEqual(elResultadoEsperado, elResultadoObtenido);
+            Assert.AreEqual(resultadoEsperado, elResultadoObtenido);
         }
 
         
