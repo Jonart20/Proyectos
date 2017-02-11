@@ -17,7 +17,15 @@ namespace Topicos.Calculadora.Dominio.Especificaciones
                 var laListaParaRecorrer = laLista.Skip(1);
                 foreach (var elItemDeLaLista in laListaParaRecorrer)
                 {
-                    elResultado /= elItemDeLaLista;
+                    if(elItemDeLaLista != 0)
+                    {
+                        elResultado /= elItemDeLaLista;
+                    }
+                    else
+                    {
+                        throw new Exception("Ocurrió un error al dividir");
+                    }
+                    
                 }
             }
                 
