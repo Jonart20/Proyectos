@@ -14,7 +14,10 @@ namespace Topicos.Calculadora.Dominio.Acciones
         /// <returns>Resultado de apicar el operador a cada uno de los terminos de la lista</returns>
         public int RealizarOperacion(IEnumerable<double> laLista)
         {
-            return 0;
+            double elResultado =0;           
+            Dominio.Especificaciones.Sume laEspecificacion = new Dominio.Especificaciones.Sume();
+            elResultado = laEspecificacion.CalcularResultado(laLista);
+            return elResultado;
         }
     }
 }
